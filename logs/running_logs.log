@@ -1,0 +1,20 @@
+INFO:DiseaseClassifierLogger:yaml file: config\config.yaml loaded successfully
+INFO:DiseaseClassifierLogger:yaml file: params.yaml loaded successfully
+INFO:DiseaseClassifierLogger:created directory at: artifacts
+INFO:DiseaseClassifierLogger:created directory at: artifacts/data_ingestion
+INFO:DiseaseClassifierLogger:Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip
+INFO:DiseaseClassifierLogger:Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip
+INFO:DiseaseClassifierLogger:Extracting zip files to artifacts/data_ingestion
+INFO:DiseaseClassifierLogger:Extracted all the files to artifacts/data_ingestion
+[2025-05-18 16:35:33,793: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2025-05-18 16:35:33,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 16:35:33,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 16:35:33,806: INFO: common: created directory at: artifacts]
+[2025-05-18 16:35:33,806: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-18 16:35:33,807: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 16:37:01,140: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 16:37:01,141: INFO: data_ingestion: Extracting zip files to artifacts/data_ingestion]
+[2025-05-18 16:37:15,292: INFO: data_ingestion: Extracted all the files to artifacts/data_ingestion]
+[2025-05-18 16:37:15,294: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x================x]

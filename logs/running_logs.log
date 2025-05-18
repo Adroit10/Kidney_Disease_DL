@@ -18,3 +18,83 @@ INFO:DiseaseClassifierLogger:Extracted all the files to artifacts/data_ingestion
 [2025-05-18 16:37:15,294: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
 
 x================x]
+[2025-05-18 19:26:10,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:26:10,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:26:10,042: INFO: common: created directory at: artifacts]
+[2025-05-18 19:28:22,011: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:28:22,018: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:28:22,019: INFO: common: created directory at: artifacts]
+[2025-05-18 19:29:02,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:29:02,238: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:29:02,242: INFO: common: created directory at: artifacts]
+[2025-05-18 19:32:46,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:32:46,532: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:32:46,535: INFO: common: created directory at: artifacts]
+[2025-05-18 19:32:53,458: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:32:53,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:32:53,465: INFO: common: created directory at: artifacts]
+[2025-05-18 19:33:30,655: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-18 19:33:32,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:33:32,552: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:33:32,558: INFO: common: created directory at: artifacts]
+[2025-05-18 19:36:12,665: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:36:12,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:36:12,672: INFO: common: created directory at: artifacts]
+[2025-05-18 19:36:12,949: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-05-18 19:36:13,359: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-05-18 19:36:28,133: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-18 19:43:27,759: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:43:27,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:43:27,766: INFO: common: created directory at: artifacts]
+[2025-05-18 19:43:28,482: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-18 19:45:23,402: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 19:45:23,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 19:45:23,410: INFO: common: created directory at: artifacts]
+[2025-05-18 19:45:24,030: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-18 21:12:27,881: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-18 21:12:29,914: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2025-05-18 21:12:29,918: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 21:12:29,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 21:12:29,922: INFO: common: created directory at: artifacts]
+[2025-05-18 21:12:29,924: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-18 21:12:29,924: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 21:13:54,606: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 21:13:54,607: INFO: data_ingestion: Extracting zip files to artifacts/data_ingestion]
+[2025-05-18 21:14:14,927: INFO: data_ingestion: Extracted all the files to artifacts/data_ingestion]
+[2025-05-18 21:14:14,931: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x================x]
+[2025-05-18 21:14:14,931: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<]
+[2025-05-18 21:14:14,931: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 21:14:14,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 21:14:14,937: INFO: common: created directory at: artifacts]
+[2025-05-18 22:02:18,810: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-18 22:02:19,832: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2025-05-18 22:02:19,833: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 22:02:19,836: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 22:02:19,837: INFO: common: created directory at: artifacts]
+[2025-05-18 22:02:19,837: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-18 22:02:19,837: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 22:03:48,871: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-18 22:03:48,872: INFO: data_ingestion: Extracting zip files to artifacts/data_ingestion]
+[2025-05-18 22:04:03,116: INFO: data_ingestion: Extracted all the files to artifacts/data_ingestion]
+[2025-05-18 22:04:03,118: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x================x]
+[2025-05-18 22:04:03,119: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<]
+[2025-05-18 22:04:03,120: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-18 22:04:03,122: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-18 22:04:03,122: INFO: common: created directory at: artifacts]
+[2025-05-18 22:04:03,326: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-05-18 22:04:03,468: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-05-18 22:04:04,018: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-18 22:04:05,558: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<
+
+x==========================x]

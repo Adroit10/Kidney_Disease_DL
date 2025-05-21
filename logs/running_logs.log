@@ -98,3 +98,94 @@ x================x]
 [2025-05-18 22:04:05,558: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<
 
 x==========================x]
+[2025-05-19 20:41:32,608: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-20 20:36:40,550: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 20:36:40,573: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 20:36:40,578: INFO: common: created directory at: artifacts]
+[2025-05-20 20:36:40,581: INFO: common: created directory at: artifacts\training]
+[2025-05-20 20:36:41,567: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-05-20 20:36:41,664: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-05-20 20:37:35,236: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 20:37:35,238: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 20:37:35,239: INFO: common: created directory at: artifacts]
+[2025-05-20 20:37:35,240: INFO: common: created directory at: artifacts\training]
+[2025-05-20 20:38:10,839: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 20:38:10,841: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 20:38:10,842: INFO: common: created directory at: artifacts]
+[2025-05-20 20:38:10,843: INFO: common: created directory at: artifacts\training]
+[2025-05-20 20:38:12,802: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-05-20 23:33:16,723: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-20 23:33:19,235: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2025-05-20 23:33:19,248: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 23:33:19,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 23:33:19,252: INFO: common: created directory at: artifacts]
+[2025-05-20 23:33:19,254: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-20 23:33:19,254: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-20 23:34:46,976: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-20 23:34:46,977: INFO: data_ingestion: Extracting zip files to artifacts/data_ingestion]
+[2025-05-20 23:35:02,221: INFO: data_ingestion: Extracted all the files to artifacts/data_ingestion]
+[2025-05-20 23:35:02,222: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x================x]
+[2025-05-20 23:35:02,223: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<]
+[2025-05-20 23:35:02,224: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 23:35:02,226: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 23:35:02,226: INFO: common: created directory at: artifacts]
+[2025-05-20 23:35:02,498: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-05-20 23:35:02,641: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-05-20 23:35:03,190: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-20 23:35:04,275: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<
+
+x==========================x]
+[2025-05-20 23:35:04,275: INFO: main: **********************]
+[2025-05-20 23:35:04,275: INFO: main: >>>>>>>> stage Training started <<<<<<<]
+[2025-05-20 23:35:04,277: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-20 23:35:04,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-20 23:35:04,278: INFO: common: created directory at: artifacts]
+[2025-05-20 23:35:04,278: INFO: common: created directory at: artifacts\training]
+[2025-05-20 23:35:06,486: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-05-21 20:47:47,075: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-05-21 20:47:48,803: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2025-05-21 20:47:48,804: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-21 20:47:48,809: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-21 20:47:48,809: INFO: common: created directory at: artifacts]
+[2025-05-21 20:47:48,809: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-21 20:47:48,809: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-21 20:49:15,668: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1dQiaTXfPO7N80xj5qEIFM6JSYEG6YSOD/view?usp=sharing\ into file artifacts/data_ingestion/data.zip]
+[2025-05-21 20:49:15,670: INFO: data_ingestion: Extracting zip files to artifacts/data_ingestion]
+[2025-05-21 20:49:39,106: INFO: data_ingestion: Extracted all the files to artifacts/data_ingestion]
+[2025-05-21 20:49:39,114: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x================x]
+[2025-05-21 20:49:39,115: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<]
+[2025-05-21 20:49:39,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-21 20:49:39,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-21 20:49:39,134: INFO: common: created directory at: artifacts]
+[2025-05-21 20:49:39,900: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-05-21 20:49:40,323: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-05-21 20:49:41,198: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-21 20:49:43,544: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<
+
+x==========================x]
+[2025-05-21 20:49:43,544: INFO: main: **********************]
+[2025-05-21 20:49:43,545: INFO: main: >>>>>>>> stage Training started <<<<<<<]
+[2025-05-21 20:49:43,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-21 20:49:43,573: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-21 20:49:43,575: INFO: common: created directory at: artifacts]
+[2025-05-21 20:49:43,575: INFO: common: created directory at: artifacts\training]
+[2025-05-21 20:49:48,149: WARNING: module_wrapper: From f:\DATA SCIENCE\Projects\Kidney_Disease DL\venv\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-05-21 23:06:05,440: INFO: main: >>>>>>>> stage Training completed <<<<<<<
+
+x==========================x]

@@ -1,0 +1,58 @@
+stages:
+  data_ingestion:
+    cmd: python src/DiseaseClassifier/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/DiseaseClassifier/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/kidney ct-scan images
+
+  base_model_prep:
+    cmd: python src/DiseaseClassifier/pipeline/stage_02_base_model_prep.py
+    deps:
+      - src/DiseaseClassifier/pipeline/stage_02_base_model_prep.py
+      - config/config.yaml
+
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
+
+    outs:
+      - artifacts/prepare_base_model
+
+  training:
+    cmd: python src/DiseaseClassifier/pipeline/stage_03_model_training.py
+    deps:
+      - src/DiseaseClassifier/pipeline/stage_03_model_training.py
+      - config/config.yaml
+      - artifacts/data_ingestion/kidney ct-scan images
+      - artifacts/prepare_base_model
+
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+      
+    outs:
+      - artifacts/training/model.h5
+
+  evaluation:
+    cmd: python src/DiseaseClassifier/pipeline/stage_04_model_evaluation.py
+    deps:
+      - src/DiseaseClassifier/pipeline/stage_04_model_evaluation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/kidney ct-scan images
+      - artifacts/training/model.h5
+
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+
+    metrics:
+      - scores.json:
+          cache: false
+          
